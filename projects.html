@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="_css/main.css"/>
+      <title>Anant Agarwal</title>
+      <script type="text/javascript" src="_scripts/toggle.js"></script>
+    </head>
+
+	<script type="text/javascript"><!-- 
+        function obfuscate( domain, name ) { document.write('<a href="mai' + 
+        'lto:' + name + '@' + domain + '">' + name + '@' + domain + '</' + 'a>'); }
+    </script>
+
+<body>
+    <div id="wrapper">
+           
+        <h1 style="color:#444444">
+        	Anant Agarwal
+        </h1>
+        <p>
+           <i><font size="4"><span id="grad">Graduate Student</span><br>
+            North Carolina State University
+            </font></i>
+        </p>
+        
+        <p>&quot;Stay Hungry, Saty Foolish&quot; - Steve Jobs</p>
+        
+        <div id="socialLinks">
+        	<ul class="nav" id="navigationLinks">
+                <li><a href="http://www.linkedin.com/in/anantag"><img src="_images/l.png" style="border:none" width="20" height="20"></a></li>
+                <li><a href="http://www.github.com/anantag"><img src="_images/github.jpg" style="border:none" width="20" height="20"></a></li>
+                <li><a href="http://www.twitter.com/anant_agarwal"><img src="_images/twitter.png" style="border:none" width="20" height="20"></a></li>
+                <li><a href="http://www.facebook.com/anantag23"><img src="_images/fb.ico" style="border:none" width="20" height="20"></a></li>
+        	</ul>
+        </div>
+        <br>
+        <hr size="2">
+        <ul class="nav" id="navigation">
+	        <li><a href="index.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li style="letter-spacing:0.1em">[Projects]</li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="personal.html">Personal</a></li>
+        </ul>
+        <br>
+     	<hr size="2">
+        
+            <div id="mainBody"> 
+                    <h2>Research</h2>
+                    <p>I am interested in the intersection of natural language processing (NLP), machine learning and vision. I am looking to apply NLP techniques to aid visual activity recognition. In the past I have worked on problems in social network analysis and theoretical cryptography. Below is a list of my publications and manuscripts (in reverse chronological order).
+                    </p>
+                    
+                    <br>
+                    
+                    <a name="iccv13"></a> <h6> YouTube2Text: Recognizing and Describing Arbitrary Activities Using Semantic Hierarchies and
+                    Zero-shot Recognition.</h6>
+                    <p class="closer">Sergio Guadarrama, Niveda Krishnamoorthy, Girish Malkarnenkar, Subhashini Venugopalan, Raymond J. Mooney, Trevor Darrell, Kate Saenko.  
+                    <br>
+                    <i>IEEE International Conference on Computer Vision (ICCV), Sydney, Australia, December 2013.</i><br>
+                    
+                    [<a href="#" onclick="toggle('togContent-iccv13', this);return false">+Details</a>] [<a href="pdf/YouTube2Text_Recognizing_and_2013_ICCV_paper.pdf">PDF</a>] [<a href="pdf/Poster_YouTube2Text_ICCV13.pdf">Poster</a>] 
+                    <div id="togContent-iccv13" style="display:none">
+                        <p id="projDesc">
+                            <i>Abstract:</i>
+                            Despite a recent push towards large-scale object recognition, activity recognition remains limited to narrow domains and small vocabularies of actions. In this paper, we tackle the challenge of recognizing and describing activities "in-the-wild". 
+                            We present a solution that takes a short video clip and outputs a brief sentence that sums up the main activity in the video, such as the actor, the action and
+                            its object. Unlike previous work, our approach works on
+                            out-of-domain actions: it does not require training videos
+                            of the exact activity. If it cannot find an accurate prediction
+                            for a pre-trained model, it finds a less specific answer that
+                            is also plausible from a pragmatic standpoint. We use semantic hierarchies learned from the data to help to choose
+                            an appropriate level of generalization, and priors learned
+                            from web-scale natural language corpora to penalize unlikely combinations of actors/actions/objects; we also use a
+                            web-scale language model to "fill in" novel verbs, i.e. when
+                            the verb does not appear in the training set. We evaluate
+                            our method on a large YouTube corpus and demonstrate it
+                            is able to generate short sentence descriptions of video clips
+                            better than baseline approaches.
+                        </p>
+                    </div>
+                    
+                    <a name="SNA"></a> <h6> People and Entity Retrieval in Implicit Social Networks </h6>
+                    <p class="closer">
+                    with Anuradha Bhamidipaty, Ashok P Kumar, Suman K Pathapati.<br>
+                    <i>IEEE International Workshop on Business Applications of Social Network Analysis, 2011</i></p>
+                    
+                    
+                    <a name="ABS-newscheme"></a> <h6> A New Approach to Threshold Attribute Based Signatures </h6>
+                    <p class="closer">with S Sharmila Deva Selvi, C PanduRangan (2011) <br>
+                    [<a href="#" onclick="toggle('togContent-abs', this);return false">+Details</a>] [<a href="pdf/New-ABS-scheme.pdf">PDF</a>] 
+                    <div id="togContent-abs" style="display:none">
+                        <p id="projDesc">
+                            <i>Abstract:</i>
+                            This work proposes a novel approach to construct threshold attribute based signatures inspired by ring signatures. Threshold
+                            attribute based signatures, defined by a <i>(t, n)</i> threshold predicate, ensure that the signer holds atleast
+                            <i>t</i> out of a specified set of <i>n</i> attributes to pass the verification. Another way to look at this would be
+                            that, the signer has atleast 1 out of the <i>(n \choose t)</i> combination of attribute sets. Thus, a different approach to
+                            t-ABS would be to let the signer pick some <i>n'</i> sets of <i>t</i> attributes each, from the <i>(n \choose t)</i> possible sets, and
+                            prove that (s)he has atleast one of the <i>n'</i> sets in his/her possession. In this work, we provide a flexible
+                            threshold-ABS scheme that realizes this approach and prove it secure with the help of random oracles.
+                        </p>
+                    </div>
+                    
+                    
+                    <a name="ABE-scheme"></a><h6> Size-Efficient Multi-level Threshold Attribute Based Encryption</h6>
+                    <p class="closer">with C PanduRangan (2010)<br>
+                    [<a href="#" onclick="toggle('togContent-abe', this);return false">+Details</a>] [<a href="pdf/ABE-scheme.pdf">PDF</a>] 
+                    <div id="togContent-abe" style="display:none">
+                        <p id="projDesc"><i>Abstract:</i>
+                            Attribute Based Encryption is an encryption mechanism that is useful in settings where the
+                            list of users may not be known apriori, but all users may possess certain credentials which can be used in
+                            determining access control and at the same time providing a reasonable degree of anonymity. Ciphertext
+                            policy attribute based encryption is a scheme that gives a natural way to link the access policy with the ciphertext,
+                            and attributes with the keys; and cleverly combine them at a later stage to provide secure access to protected data.
+                            </p>
+                            <p>
+                            In most ABE schemes the size of the ciphertext is quite large and is of the order of the number of
+                            attributes. Recently, Herranz et al. proposed a constant size threshold ABE scheme for a single threshold policy. Extending Herranz's approach, we give a multi-level threshold attribute based encryption scheme
+                            whose ciphertext size depends only on the size of the policy and is independent of the number of attributes.
+                        
+                        </p>
+                    </div>
+            
+            <!--        <a name="Networks"></a><h6> IP Address Lookup, Queuing, and Scheduling algorithms
+                </h6>
+                <p class="closer">with Krishna Sivalingam (2010) <br>
+                    [<a href="#" onclick="toggle('togContent-ip', this);return false">+Details</a>] [<a href="pdf/IP-algos.pdf">PDF-IP</a>] [<a href="https://github.com/vsubhashini/IP-algos">code-IP</a>] [<a href="pdf/queue-ns2.pdf">PDF-Qs</a>] [<a href="https://github.com/vsubhashini/queue-ns2">code-Qs</a>]
+                <div id="togContent-ip" style="display:none">
+                    <p><i>Abstract:</i> IP Address Lookup is an interesting problem. It requires an algorithm that retrieves the longest prefix match of a given set of IP Addresses. In our work we implemented 3 popular address lookup algorithms, based on (i) binary trie (ii) multi-bit stride based Trie and (iii) linear length search based on Hash tables. </p>
+            
+                    <p> As part of an assignment we simulated various queue scheduling algorithms like Deficit Round Robin (DRR) and Fair  Queuing (FQ). We also observed the variation of TCP congestion window with DropTail and RED algorithms. The simulations were run on the ns-2 simulator.
+                    </p>
+                <p><i> I explored these algorithms in the course on advanced computer networks offered in Spring 2010 by Prof. Krishna Sivalingam at IIT, Madras.</i>  
+                    </p>
+                </div>
+            -->
+            <!--        <a name="DM-astro"></a><h6> Data Mining Techniques to Classify Astronomy Objects </h6>
+                    <p class="closer">with Ananthanarayana V S (2009) <br>
+                    [<a href="#" onclick="toggle('togContent-dm', this);return false">+Details</a>] [<a href="pdf/DM-astro.pdf">PDF</a>] 
+                <div id="togContent-dm" style="display:none">
+                    <p><i>Abstract:</i> In this project we experiment with some of the existing data mining techniques like Support Vector Machines, kd-trees, decision trees and DBSCAN (density based spatial clustering with noise) to explore their feasibility in clustering and classifying astronomy objects (using spectral data). The objective is to identify appropriate parameters and develop an algorithm to improve the classification accuracies of stars, galaxies and quasars. We also compare how the choice of parameters and distance measures affect the performance of the algorithms.
+                </p>
+                <p><i>This project was a part of my undergraduate thesis at NITK, Surathkal. It was largely my fascination for data mining algorithms and an interest in astronomy that led me to work on the problem. The data for the project was obtained from the Sloan Digital Sky Survey.
+                </i></p>
+                </div> -->
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+		</div>
+    </div>
+</body>
+
+</html>

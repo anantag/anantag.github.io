@@ -41,26 +41,30 @@
             <li><a href="education.html">Education</a></li>
             <li><a href="experience.html">Experience</a></li>
             <li style="letter-spacing:0.1em">[Projects]</li>
-            <li><a href="courses.html">Courses</a></li>
+            
             <li><a href="personal.html">Personal</a></li>
         </ul>
         <br>
      	<hr size="2">
         
             <div id="mainBody"> 
-                    <h2>Research</h2>
-                    <p>I am interested in the intersection of natural language processing (NLP), machine learning and vision. I am looking to apply NLP techniques to aid visual activity recognition. In the past I have worked on problems in social network analysis and theoretical cryptography. Below is a list of my publications and manuscripts (in reverse chronological order).
+                    <h2 id="projH2">Projects</h2>
+                    <p>
                     </p>
                     
                     <br>
                     
                     <a name="iccv13"></a> <h6>Sentiment Analysis of Twitter Data</h6>
-                    <p class="closer">Anant Agarwal  
+                    <p class="closer"><i id="tools">using Python, NLTK and scikit-learn.</i> 
                     <br>
-                    <i>Developed using Python, NLTK and scikit-learn.</i><br>
-                    
+					Developed multi-classifier models to perform sentiment analysis of twitter data for the Sentiment140 dataset and compared the performance of Naive Bayes, MaxEntropy and SVM classifiers over different performance metrics.
+					Achieved comparable results (~75% accuracy) to existing approaches despite using a general corpus and default parameters.
+
+                    <br>
+                    <div id="options">
                     [<a href="#" onclick="toggle('togContent-iccv13', this);return false">+Details</a>] [<a href="pdf/YouTube2Text_Recognizing_and_2013_ICCV_paper.pdf">Report</a>] [<a href="pdf/Poster_YouTube2Text_ICCV13.pdf">GitHub</a>] 
-                    <div id="togContent-iccv13" style="display:none">
+                    </div>
+					<div id="togContent-iccv13" style="display:none">
                         <p id="projDesc">
                             <i>Abstract:</i>
 							Opinion Mining or Sentiment Analysis is the technique of determining the attitude of a speaker with
@@ -77,9 +81,12 @@
                     </div>
                     
                     <a name="ABS-newscheme"></a> <h6>VoiceTravel - A Dialogue Assistant for Flight Search</h6>
-                    <p class="closer"> Anant Agarwal <br>
-                    <i>Developed using Python, NLTK , Django and Android SDK.</i><br>
-					[<a href="#" onclick="toggle('togContent-abs', this);return false">+Details</a>] [<a href="pdf/New-ABS-scheme.pdf">Report</a>] [<a href="pdf/Poster_YouTube2Text_ICCV13.pdf">GitHub</a>] 
+                    <p class="closer"><i  id="tools">using Python, NLTK , Django and Android SDK.</i>
+					<br>
+					
+                    Developed a dialogue based system that provides the user with a spoken interface to search flights. Implemented the system as an android application that communicates with a remote Django server to perform language processing on user utterance through named entity recognition, part-of-speech tagging etc.
+<br><div id="options">
+					[<a href="#" onclick="toggle('togContent-abs', this);return false">+Details</a>] [<a href="pdf/New-ABS-scheme.pdf">Report</a>] [<a href="pdf/Poster_YouTube2Text_ICCV13.pdf">GitHub</a>]</div> 
                     <div id="togContent-abs" style="display:none">
                         <p id="projDesc">
                             <i>Abstract:</i>
@@ -98,10 +105,14 @@ how air travel search is done.
                     
                     
                     <a name="ABE-scheme"></a><h6> Tag Based Data De-duplication over a Network</h6>
-                    <p class="closer">Anant Agarwal<br>
-					<i>Developed using C++, Pthreads and Socket Programming.</i><br>
-                    [<a href="#" onclick="toggle('togContent-abe', this);return false">+Details</a>] [<a href="pdf/ABE-scheme.pdf">Report</a>] [<a href="pdf/ABE-scheme.pdf">GitHub</a>] 
-                    <div id="togContent-abe" style="display:none">
+                    <p class="closer"><i  id="tools"> using C++, Pthreads and Socket Programming.</i>
+					<br>
+					
+					Developed an in-line data de-duplication scheme for a file-system using fixed sized blocks for a network structure. System supports tag-based file retrieval, file-locking and caching at client end for bandwidth optimization. The system had a de-duplication factor of 0.7 over different test sets and also had a robust underlying peer to peer network
+					
+					<br>
+                    <div id="options">[<a href="#" onclick="toggle('togContent-esa', this);return false">+Details</a>] [<a href="pdf/ABE-scheme.pdf">Report</a>] [<a href="pdf/ABE-scheme.pdf">GitHub</a>]</div> 
+                    <div id="togContent-esa" style="display:none">
                         <p id="projDesc"><i>Abstract:</i>
 							The motivation of our project is to build a data de-duplication scheme which would enable
 							us to build an object repository in a network. A network is characterized by several hosts,
@@ -120,28 +131,6 @@ how air travel search is done.
                         </p>
                     </div>
             
-            <!--        <a name="Networks"></a><h6> IP Address Lookup, Queuing, and Scheduling algorithms
-                </h6>
-                <p class="closer">with Krishna Sivalingam (2010) <br>
-                    [<a href="#" onclick="toggle('togContent-ip', this);return false">+Details</a>] [<a href="pdf/IP-algos.pdf">PDF-IP</a>] [<a href="https://github.com/vsubhashini/IP-algos">code-IP</a>] [<a href="pdf/queue-ns2.pdf">PDF-Qs</a>] [<a href="https://github.com/vsubhashini/queue-ns2">code-Qs</a>]
-                <div id="togContent-ip" style="display:none">
-                    <p><i>Abstract:</i> IP Address Lookup is an interesting problem. It requires an algorithm that retrieves the longest prefix match of a given set of IP Addresses. In our work we implemented 3 popular address lookup algorithms, based on (i) binary trie (ii) multi-bit stride based Trie and (iii) linear length search based on Hash tables. </p>
-            
-                    <p> As part of an assignment we simulated various queue scheduling algorithms like Deficit Round Robin (DRR) and Fair  Queuing (FQ). We also observed the variation of TCP congestion window with DropTail and RED algorithms. The simulations were run on the ns-2 simulator.
-                    </p>
-                <p><i> I explored these algorithms in the course on advanced computer networks offered in Spring 2010 by Prof. Krishna Sivalingam at IIT, Madras.</i>  
-                    </p>
-                </div>
-            -->
-            <!--        <a name="DM-astro"></a><h6> Data Mining Techniques to Classify Astronomy Objects </h6>
-                    <p class="closer">with Ananthanarayana V S (2009) <br>
-                    [<a href="#" onclick="toggle('togContent-dm', this);return false">+Details</a>] [<a href="pdf/DM-astro.pdf">PDF</a>] 
-                <div id="togContent-dm" style="display:none">
-                    <p><i>Abstract:</i> In this project we experiment with some of the existing data mining techniques like Support Vector Machines, kd-trees, decision trees and DBSCAN (density based spatial clustering with noise) to explore their feasibility in clustering and classifying astronomy objects (using spectral data). The objective is to identify appropriate parameters and develop an algorithm to improve the classification accuracies of stars, galaxies and quasars. We also compare how the choice of parameters and distance measures affect the performance of the algorithms.
-                </p>
-                <p><i>This project was a part of my undergraduate thesis at NITK, Surathkal. It was largely my fascination for data mining algorithms and an interest in astronomy that led me to work on the problem. The data for the project was obtained from the Sloan Digital Sky Survey.
-                </i></p>
-                </div> -->
             <br>
             <br>
             <br>

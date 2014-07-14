@@ -5,10 +5,10 @@ function toggle(id, link) {
      
       if (e.style.display == '') {
         e.style.display = 'none';
-	link.innerHTML = '+Details';
+	link.innerHTML = '+Additional Details';
 	}
       else {
         e.style.display = '';
-	link.innerHTML = '-Details';
+	link.innerHTML = '-Additional Details';
 	}
     }

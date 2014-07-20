@@ -15,7 +15,7 @@ body {
 	font-size: .65em;
 	line-height: 1.8em;
 	background-color:#FFFFFF;
-
+    overflow-x: hidden;
 	/*min-width: 780px;*/
 	}
 	
@@ -25,7 +25,8 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-bottom: 25px;
+	padding-bottom:25px;
 	font-family: "Trebuchet MS",Lucida Console, monospace;
 
 }
@@ -402,10 +403,18 @@ span {
 	
 }
 #edu5{
-	padding:0px 0px 5px 0px;
-	margin:0px 0px 0px 0px;
+	padding:0px 0px 5px 10px;
+	margin:0px 0px 0px 10px;
 	font-size: 1.2em;
-	width: 96%;
+	width: 80%;
+	
+	
+}
+#edu6{
+	padding:0px 0px 5px 15px;
+	margin:0px 0px 0px 15px;
+	font-size: 1.2em;
+	width: 80%;
 	
 	
 }
@@ -423,8 +432,16 @@ span {
 }
 #eduHR{
 	
-	width:90%;
+	width:80%;
 	margin-top:10px;
 	margin-bottom:10px;
 	
+}
+hr{
+	width:98%;
+	align:left;
+}
+
+#proj1{
+	padding-left:30px;
 }
